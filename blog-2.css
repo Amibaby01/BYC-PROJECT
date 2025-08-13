@@ -25,11 +25,10 @@
 }
 
 .navbar {
-    padding: 16px;
-}
-
+      padding: 16px;
+ }
 .navbar-nav {
-    gap: 24px;
+      gap: 24px;
 }
 
 .icon-links a {
@@ -45,28 +44,134 @@
       display: none !important;
     } */
 
-/* .navigation ul {
-    margin: 0 3px !important;
+    /* nav-bar stop here */
+
+
+    /* Blog-2 styling start here */
+/* .text-h3 {
+    font-weight: 700;
+    font-size: 48px;
+    color: #212121;
 } */
-
-
-
-/* login start here */
-.create-p {
-  margin-top: 40px !important;
-  margin-bottom: 210px !important;
-  text-align: center;
+/* BLOG-2 STYLING START HERE */
+.text-h3 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 100%;
+    font-family: "Noto-sans", sans-serif;
+    color: #212121;
 }
 
-.login-form {
-  /* border-right: #FFFFFF; */
-  border-right: 1px solid #F3f0f0;
-  height: 365px;
+.blog-2-p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #424242;
+    line-height: 100%;
+    margin-top: 80px !important;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-family: "Noto-Sans", sans-serif;
 }
 
-.create-section {
-    border-left: 1px solid #f3f0f0;
-    height: 365px;
+.blog-text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: #424242;
+    line-height: 100%;
+    margin-top: 80px !important;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-family: "Noto-Sans", sans-serif;
+}
+
+
+.blog-news .card-body {
+    font-family: "Jost", sans-serif;
+    width: 440px;
+    height: 450px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    
+}
+.card-blog-news .d-flex {
+    background-color: #E0E0E0;
+    width: 22rem;
+    font-family: "Jost", sans-serif;
+}
+.card-blog-news span, .card-blog-news .fa-regular {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #424242;
+}
+.wade {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 100% !important;
+    color: #212121 !important;
+}
+.blog-news h3 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 120%;
+    color: #212121;
+}
+.blog-news p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 140%;
+    color: #424242;
+}
+
+
+
+
+/* #blog_nav {
+    margin-left: 30px;
+    margin-top: 75px;
+    color: #00000080;
+}
+
+#blog_header{
+    margin-top: 85px;
+    font-family: 'Noto sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 60px;
+}
+
+#fist_blog_text{
+    font-family: 'noto sans', sans-serif;
+}
+
+#blog_first_img {
+        width: 94% !important;
+    }
+
+#second_blog_text p {
+    font-family: 'noto sans', sans-serif;
+}
+
+#second_blog_header p {
+     margin-top: 85px;
+    font-family: 'Noto sans', sans-serif !important;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 60px;
+} */
+/* BLOG 2 STYLING ENDS HERE */
+
+
+
+/* navigation 2 start here */
+.pagination {
+    margin: 0 3px !important;
+    justify-content: center !important;
+    gap: 20px !important;
 }
 
 
@@ -184,6 +289,7 @@ hr {
 
 
 
+
 /* media quary for responsive */
 @media screen and (max-width: 600px) {
     .navbar {
@@ -194,22 +300,42 @@ hr {
         max-width:  100% !important;
     }
 
-    /* media quary for login */
-    #exampleInputPassword1 {
-        width: 95% !important;
+
+    /* section 5 media query  */
+    .text-h3 {
+        font-weight: 400;
+        font-size: 30px;
+        margin-top: 50px !important;
     }
 
-    #exampleInputEmail1 {
-       width: 95% !important;
+    .blog-2-p, .blog-text {
+        font-weight: 400;
+        font-size: 15px;
     }
+     .blog-news .wf, .blog-news h3, .blog-news p {
+        padding: 0px 10px !important;
+     }
+    
+    .blog-news br {
+        display: none !important;
+     }
+    .card-blog-news .d-flex {
+        margin-top: 20px;
+        width: 74vw;
+   }
+   .wade {
+    font-size: 15px !important;
+   }
+   .blog-news .card-body {
+    width: 100%;
+    height: 63vh;
+   }
 
-    .login-btn, .login-create {
-        width: 99% !important;
+}
+
+/* media  */
+@media screen and (max-width: 932px) {
+    .blog-news .card-body {
+        height: 390px ;
     }
-
-    .login-form {
-        padding-left: 10px !important;
-        /* width: 100% !important; */
-    }
-
 }

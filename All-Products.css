@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-
 * {
     margin: 0 !important;
     padding: 0 !important; ;
@@ -48,7 +47,6 @@
 /* .navigation ul {
     margin: 0 3px !important;
 } */
-
 
 
 /* login start here */
@@ -182,34 +180,60 @@ hr {
 }
 /* footer ends here  */
 
+/* RECENTLY VIEWED STYLING */
+
+/* MOST SOLD STYLING */
 
 
-/* media quary for responsive */
-@media screen and (max-width: 600px) {
-    .navbar {
-        padding: 0.1rem !important;
-       /* max-width: 100% !important; */
-    }
-    body {
-        max-width:  100% !important;
-    }
-
-    /* media quary for login */
-    #exampleInputPassword1 {
-        width: 95% !important;
-    }
-
-    #exampleInputEmail1 {
-       width: 95% !important;
-    }
-
-    .login-btn, .login-create {
-        width: 99% !important;
-    }
-
-    .login-form {
-        padding-left: 10px !important;
-        /* width: 100% !important; */
-    }
-
+/* RECENTLY VEIW  */
+.all-products {
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    line-height: 100% !important;
+    color: #000000 !important;
+    font-family: "Noto sans", sans-serif !important;
 }
+
+.about-sec3 {
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+ border-radius: 10px;
+}
+.about-sec3 .card-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #19191D;
+  font-family: "Jost", sans-serif;
+}
+
+.text-p {
+  font-weight: 450 !important;
+  font-size: 20px;
+}
+/* .about-sec3 .text-p{
+} */
+.about-sec3 .men-fash {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 143%;
+  letter-spacing: 1.8%;
+  color: #787885;
+}
+
+.about-sec3 .price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 100%;
+  color: #000000DE;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.about-sec3 .rating {
+  font-family: "Roboto ", sans-serif;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 23%;
+  color: #5E6366;
+}
+/* ABOUT US ENDS HERE  */
+
