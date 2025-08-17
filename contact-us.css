@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
+
 * {
     margin: 0 !important;
     padding: 0 !important; ;
@@ -13,6 +14,7 @@
 
 .footer-font {
     font-family: "Jost", sans-serif;
+    margin-top: 100px !important;
 }
 
 .nav-item {
@@ -160,11 +162,7 @@
 .contact-info {
     font-family: "Nunito Sans", sans-serif;
 }
-/* .fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube {
-    border-radius: 100%;
-    background-color: #fff;
-    padding: 25px 10px;
-} */
+
 
 hr {
     border: 2px solid #fff;
@@ -178,48 +176,66 @@ hr {
     line-height: 100%;
     color: #fff;
 }
-/* footer ends here  */
+/*  footer ends here  */
+
+
+/* CONTACT US STYLING START HERE */
+.page-direction h3 {
+   font-size: 26px;
+   font-weight: 700;
+   color: #000;
+}
+
+.page-direction p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #000;
+}
+
+.page-direction .bi-envelope-at, .bi-globe, .bi-telephone-outbound {
+    width: 52px !important;
+    height: 52px !important;
+    color: #d7000f;
+    margin-left: 20px !important;
+    margin-top: 15px !important;
+}
+
+.contact-info {
+    margin-top: 100px !important;
+}
 
 /* RECENTLY VIEWED STYLING */
-
-/* MOST SOLD STYLING */
-
-
-/* RECENTLY VEIW  */
-.all-products {
-    font-weight: 700 !important;
-    font-size: 20px !important;
-    line-height: 100% !important;
-    color: #000000 !important;
-    font-family: "Noto sans", sans-serif !important;
-}
-
-.product {
+.contact-us {
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
  border-radius: 10px;
- width: 100%;
- height: 2250px;
+ margin-top: 100px !important;
 }
-
-.product-card1, .product-card2, .product-card3, .product-card4, .product-card5 {
-    width: 246px;
-    height: 520px;
-    border-end-end-radius: 11px 11px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-}
-.product .card-text, .product-two .card-text {
+.contact-us .card-text {
   font-size: 16px;
   font-weight: 700;
   color: #19191D;
   font-family: "Jost", sans-serif;
 }
 
+.contact {
+    margin-top: 80px !important;
+}
+
+.map {
+    margin-top: 80px !important;
+}
+
+.page-direction {
+    margin-top: 80px !important;
+}
+
 .text-p {
   font-weight: 450 !important;
   font-size: 20px;
 }
-
-.product .men-fash, .product-two .men-fash {
+/* .about-sec3 .text-p{
+} */
+.contact-us .men-fash {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 12px;
@@ -228,7 +244,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
   color: #787885;
 }
 
-.product .price, .product-two .price {
+.contact-us .price {
   font-weight: 600;
   font-size: 20px;
   line-height: 100%;
@@ -236,32 +252,14 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
   font-family: "Noto Sans", sans-serif;
 }
 
-.product .rating, .product-two .rating {
+.contact-us .rating {
   font-family: "Roboto ", sans-serif;
   font-weight: 600;
   font-size: 19px;
   line-height: 23%;
   color: #5E6366;
 }
-
-/* PRODUCT TWO STYLING */
-.product-two {
-  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-  border-radius: 10px;
-  width: 100%;
- /* height: 530px; */
-}
-
-
-/* NAVIGATION NUMBER */
-.pagination {
-    margin: 0 3px !important;
-    justify-content: center !important;
-    gap: 20px !important;
-    margin-top: 550px !important;
-}
-
-/* PRODUCT ENDS HERE  */
+/* RECENTLY VIEWED ENDS HERE  */
 
 
 /* media quary for responsive */
@@ -273,4 +271,54 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
     body {
         max-width:  100% !important;
     }
+
+    /* .contact-info {
+        width: 50% !important;
+    } */
+
+     #exampleInputPhone1 {
+        width: 95% !important;
+    }
+
+    #exampleInputEmailaddress1 {
+       width: 95% !important;
+    }
+
+    #exampleInputNote1 {
+       width: 95% !important;
+    }
+
+    .submit-btn {
+        width: 100% !important;
+    }
+
+    .submit-form {
+        padding-left: 10px !important;
+        /* width: 100% !important; */
+    }
+
+    .drop {
+        font-size: 38px !important;
+        margin-left: 50px !important;
+    }
+
+    .map {
+        width: 100% !important;
+    }
+
+    .contact {
+        margin-left: 120px !important;
+        font-size: 20px;
+    }
+
+    .blog_nav {
+        margin-left: 20px !important;
+    }
+
+    .page-direction {
+        width: 100% !important;
+        height: 350px !important;
+    }
 }
+
+
