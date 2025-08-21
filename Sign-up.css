@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-
+/* LANDING PAGE STYLING */
 * {
     margin: 0 !important;
     padding: 0 !important; ;
@@ -14,7 +14,6 @@
 
 .footer-font {
     font-family: "Jost", sans-serif;
-    margin-top: 100px !important;
 }
 
 .nav-item {
@@ -51,23 +50,19 @@
 } */
 
 
-/* login start here */
-.create-p {
-  margin-top: 40px !important;
-  margin-bottom: 210px !important;
-  text-align: center;
-}
 
-.login-form {
-  /* border-right: #FFFFFF; */
-  border-right: 1px solid #F3f0f0;
-  height: 365px;
+/* sign-up styling start here */
+.sign {
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+  width: 70% !important;
+  height: 700px;
+  margin: 20px !important;
+  margin-top: 50px !important;
+  margin-left: 200px !important; */
+  /* to move the border to the right inorder to center it */
 }
-
-.create-section {
-    border-left: 1px solid #f3f0f0;
-    height: 365px;
-}
+  
 
 
 /* footer styling start here */
@@ -176,103 +171,8 @@ hr {
     line-height: 100%;
     color: #fff;
 }
-/*  footer ends here  */
+/* footer ends here  */
 
-
-/* CONTACT US STYLING START HERE */
-.page-direction h3 {
-   font-size: 26px;
-   font-weight: 700;
-   color: #000;
-}
-
-.page-direction p {
-    font-size: 18px;
-    font-weight: 400;
-    color: #000;
-}
-
-.page-direction  .bi-globe {
-    width: 52px !important;
-    height: 52px !important;
-    color: #d7000f;
-    margin-left: 20px !important;
-    margin-top: 15px !important;
-}
-
-.page-direction .bi-envelope-at, .bi-telephone-outbound {
-    width: 52px !important;
-    height: 52px !important;
-    color: #D7D7D7;
-    margin-left: 20px !important;
-    margin-top: 15px !important;
-}
-
-.contact-info {
-    margin-top: 100px !important;
-}
-
-
-.map {
-    margin-top: 80px !important;
-}
-
-.page-direction {
-    margin-top: 80px !important;
-}
-
-/* RECENTLY VIEWED STYLING */
-.contact-us {
-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
- border-radius: 10px;
- margin-top: 100px !important;
- margin: 10px !important;
-}
-
-.contact-us .card-text {
-  font-size: 16px;
-  font-weight: 700;
-  color: #19191D;
-  font-family: "Jost", sans-serif;
-}
-
-.contact {
-    margin-top: 80px !important;
-}
-
-
-
-.text-p {
-  font-weight: 450 !important;
-  font-size: 20px;
-}
-/* .about-sec3 .text-p{
-} */
-.contact-us .men-fash {
-  font-family: "Inter", sans-serif;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 143%;
-  letter-spacing: 1.8%;
-  color: #787885;
-}
-
-.contact-us .price {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 100%;
-  color: #000000DE;
-  font-family: "Noto Sans", sans-serif;
-}
-
-.contact-us .rating {
-  font-family: "Roboto ", sans-serif;
-  font-weight: 600;
-  font-size: 19px;
-  line-height: 23%;
-  color: #5E6366;
-}
-/* RECENTLY VIEWED ENDS HERE  */
 
 
 /* media quary for responsive */
@@ -285,11 +185,8 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
         max-width:  100% !important;
     }
 
-    /* .contact-info {
-        width: 50% !important;
-    } */
-
-    #exampleInputPhone1 {
+    /* media quary for sinup */
+    #exampleInputFullname1 {
         width: 95% !important;
     }
 
@@ -297,41 +194,31 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
        width: 95% !important;
     }
 
-    #exampleInputNote1 {
+    #exampleInputPassword1 {
+        width: 95% !important;
+    }
+
+    #exampleInputConfirmpassword1 {
        width: 95% !important;
     }
 
-    .submit-btn {
-        width: 100% !important;
+    .signup-create  {
+        width: 99% !important;
     }
 
-    .submit-form {
+    .sign {
         padding-left: 10px !important;
         /* width: 100% !important; */
     }
 
-    .drop {
-        font-size: 38px !important;
-        margin-left: 50px !important;
+    /* .sign {
+        border: none !important;
+        box-shadow: none !important;
+        align-items: center;
+    } */
+
+    .footer-font {
+        padding-left: 30px !important;
     }
 
-    .map {
-        width: 100% !important;
-    }
-
-    .contact {
-        margin-left: 120px !important;
-        font-size: 20px;
-    }
-
-    .blog_nav {
-        margin-left: 20px !important;
-    }
-
-    .page-direction {
-        width: 100% !important;
-        height: 350px !important;
-    }
 }
-
-

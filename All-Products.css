@@ -24,7 +24,7 @@
 }
 
 .navbar {
-    padding: 16px;
+    padding: 20px;
 }
 
 .navbar-nav {
@@ -180,12 +180,98 @@ hr {
 }
 /* footer ends here  */
 
-/* RECENTLY VIEWED STYLING */
-
-/* MOST SOLD STYLING */
+/*  */
 
 
 /* RECENTLY VEIW  */
+
+.btn-toggle {
+    width: 68px;
+    height: 36px;
+    border-radius: 4px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    color: #FFFFFF;
+  }
+
+  
+  .btn-toggle.inactive {
+    background: #eeebf7; 
+    color: #000;         
+    /* width: 15px !important; */
+    /* height: 18px !important; */
+  }
+
+  /* Active */
+  .btn-toggle.active {
+    background: #fff;
+    /* border: 0px solid #e9ecf2; */
+    box-shadow: 0 0 0 4px rgba(200, 201, 205, 0.18); 
+    /* blue glow */
+    /* color: #d46a6a !important; muted red */
+    width: 60px !important;
+    height: 36px !important;
+    border: none !important;
+  }
+
+  .btn-toggle i {
+    font-size: 18px;
+    
+  }
+
+  .btn-toggle a {
+    width: 30px !important;
+    height: 30px !important;
+    color: #CE6B6B;
+  }
+
+/* SORTED BY STYLING */
+
+.sortby {
+    position:relative;
+    width:136px !important; 
+    margin-top: 10px !important;
+    font-family: Roboto, sans-serif;
+  }
+
+  .sortby__select {
+    border:1.5px solid #5A5B6A !important;      /* light gray like screenshot */
+    border-radius:4px !important;
+    padding:.65rem 2.25rem .65rem .9rem; /* leave room for the caret on the right */
+    font-weight:500 !important;                  /* bold "Most Sold" */
+    font-size:14px !important;
+    line-height:1.25rem;
+    color:#212529;
+    box-shadow: none !important;
+    background-clip:padding-box; 
+    width:136px !important; 
+    height: 36px !important;     
+    padding-left: 10px !important;
+  }
+
+  .sortby__select:focus {
+    box-shadow:none;
+    outline: none !important;
+  }
+
+  .sortby__label {
+    position:absolute;
+    top:-.55rem;                      
+    left:.65rem;
+    background:#fff;                  
+    padding:0 .35rem;
+    font-size:.65rem;                 
+    text-transform:uppercase;
+    letter-spacing:.18rem;            
+    color:#9198A6;                    
+    font-weight:600;
+    pointer-events:none;
+  }
+/* SORTED BY STYLING END HERE */
+
 .all-products {
     font-weight: 700 !important;
     font-size: 20px !important;
@@ -195,17 +281,22 @@ hr {
 }
 
 .product {
-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
- border-radius: 10px;
- width: 100%;
- height: 2250px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+  /* width: 100%; */
+  height: 2250px;
+  /* margin: 20px !important; */
 }
 
 .product-card1, .product-card2, .product-card3, .product-card4, .product-card5 {
-    width: 246px;
+    width: 230px;
     height: 520px;
     border-end-end-radius: 11px 11px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    /* display: flex !important; */
+    /* gap: 200px !important; */
+    /* padding: 2px !important; */
+    
 }
 .product .card-text, .product-two .card-text {
   font-size: 16px;
@@ -248,17 +339,18 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 .product-two {
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
   border-radius: 10px;
-  width: 100%;
+  /* width: 100%; */
  /* height: 530px; */
+  /* margin: 20px !important; */
 }
 
 
 /* NAVIGATION NUMBER */
 .pagination {
-    margin: 0 3px !important;
+    /* margin: 0 3px !important; */
     justify-content: center !important;
     gap: 20px !important;
-    margin-top: 550px !important;
+    margin-top: 400px !important;
 }
 
 /* PRODUCT ENDS HERE  */
@@ -269,8 +361,31 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
     .navbar {
         padding: 0.1rem !important;
        /* max-width: 100% !important; */
+       /* margin-left: none !important; */
+    }
+
+    .navbar {
+        margin: 0px !important;
     }
     body {
         max-width:  100% !important;
+    }
+
+    .btn-primary {
+        width: 100% !important;
+    }
+
+    .product-two {
+        /* margin-top: none !important; */
+    }
+
+    .product-card1, .product-card2, .product-card3, .product-card4, .product-card5 {
+        /* padding: none !important; */
+        width: 100% !important;
+    }
+
+    .product {
+        /* margin-top: none !important; */
+        width: 90% !important;
     }
 }

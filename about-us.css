@@ -230,8 +230,8 @@ hr {
 }
 
 .record-cards {
-  margin-left: 20px !important;
-  padding: 150px !important;
+  margin-left: 100px !important;
+  padding: 90px !important;
   /* margin-bottom: 100px !important; */
 }
 
@@ -268,11 +268,16 @@ hr {
   font-size: 26px;
   margin-top: 30px !important;
 }
+
 /* RECENTLY VIEWED STYLING */
 .about-sec3 {
-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
- border-radius: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 10px;
+  margin: 10px !important;
+  /* padding: 15px !important; */
 }
+
+
 .about-sec3 .card-text {
   font-size: 16px;
   font-weight: 700;
@@ -280,9 +285,10 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
   font-family: "Jost", sans-serif;
 }
 
-.text-p {
+.card-body .text-p {
   font-weight: 450 !important;
-  font-size: 20px;
+  font-size: 20px !important;
+  margin-bottom: 30px !important;
 }
 /* .about-sec3 .text-p{
 } */
@@ -349,9 +355,7 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
     margin: 0px;
   }
 
-  .card .card-hover  {
-    /* width: 100%; */
-  }
+  
   .card {
     margin-left: 25px;
   }

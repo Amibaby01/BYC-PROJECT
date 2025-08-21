@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="Sign-up.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <title>LOGIN</title>
+    <title>SIGN-UP</title>
     <link rel="icon" href="./images/BYC LOGO JPG FILE 1.png"/>
 </head>
 <body>
-  
-  <nav class="navbar navbar-expand-lg bg-white px-lg-5 py-lg-3">
+   
+    <nav class="navbar navbar-expand-lg bg-white px-lg-5 py-lg-3">
         <div class="container-fluid">
               <!-- LEFT NAV BAR-->
                 <div class="d-none d-lg-flex">
@@ -63,56 +63,43 @@
         <!-- nav bar ends here -->
 
 
-
-        <!-- LOGIN SECTION -->
-         <div class="header text-center mt-3">
-        <h3 class="log-in" style="font-weight: 700; font-size: 26px; color: #000;">Login</h3>
-      </div>
-  
-      <section class="container-fluid mt-4 d-flex justify-content-center align-items-center">
-        <!-- <div class="row px-lg-5 mt-5"> -->
-      <!-- <div class="col-sm-12 col-md-6 mb-4 col-lg-6 login-form"> -->
-      
-
-    <form>
-    <div class="form-group mt-3">
-        <label for="exampleInputEmail1" style="font-weight: 400; font-size: 16px; line-height: 100%; color: #000;">E-mail</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" style="width: 532px; height: 54px; border-radius: 10px; border: 1px solid #BD3A3A;">
-        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
-    </div>
-      <div class="form-group mt-3">
-        <label for="exampleInputPassword1" style="font-weight: 400; font-size: 16px; line-height: 100%; color: #000;">Password</label>
-        <input type="password" class="form-control" id="exampleInputPassword1" style="width: 532px; height: 54px; border-radius: 10px; border: 1px solid #BD3A3A;">
-      </div>
-<!-- CHECKBOX,  -->
-    <!-- <div class="form-group form-check mt-3">
-        <input type="checkbox" class="form-check-input" id="exampleCheck1">
-        <label class="form-check-label" for="exampleCheck1" style="font-weight: 400; font-size: 16px; line-height: 100%; color: #000;">remember Me <span>Forgot your password?</span></label>
-    </div> -->
-    
-     <div class="d-flex justify-content-between gap-3 mt-3">
-          <div>
-            <input type="checkbox" id="remember" style="transform: scale(1.9); margin-right: 11px;"  >
-            <label for="remember" class="ms-1 ">Remember me</label>
-          </div>
-          <a href="#" class="text-decoration-none text-black px-lg-">Forgot your password?</a>
+        <!-- CREATE ACCOUNT SECTION -->
+        <div class=" header text-center mt-4">
+            <h3 class="create-account fw-bold" style="font-weight: 700px; font-size: 26px; line-height: 100%;">Create your an account</h3>
         </div>
+        
+  <section class="container-fluid sign d-lg-flex justify-content-center align-items-center">
+    <!-- <hr style="border: 2px solid #f1eeeee4; background-color: #1E1D1D; box-shadow: #e7e6e63d 0px 3px 8px;"> -->
+    <form>
+      <div class="form-group mt-4">
+        <label for="exampleInputFullname1" style="font-weight: 400; font-size: 16px; line-height: 100%; color: #000;">Full Name</label>
+        <input type="fullname" class="form-control w-100 mt-3" id="exampleInputFullname1" aria-describedby="emailHelp" style="width: 532px; height: 54px; border-radius: 10px; border: 1px solid #BD3A3A;">
+      </div>
 
+      <div class="form-group mt-4">
+        <label for="exampleInputEmail1" style="font-weight: 400; font-size: 16px; line-height: 100%; color: #000;">Email Address</label>
+        <input type="email" class="form-control mt-3" id="exampleInputEmailaddress1" aria-describedby="emailHelp" style="width: 532px; height: 54px; border-radius: 10px; border: 1px solid #BD3A3A;">
+      </div>
 
-      <button type="submit" class="btn btn-primary login-btn mt-5" onclick="login(event)" style="font-weight: 700; font-size: 16px; line-height: 100%; color: #FFFFFF; width: 532px; height: 54px; border-radius: 10px; border: 1px solid #BD3A3A; background-color: #BD3A3A;">LOGIN</button>
-       <div class="dont d-flex justify-content-between align-items-center mt-4">
-      <p style="font-size: 16px; font-weight: 400; line-height: 100%; color: #000;">Don't have an account? Sign up</p>
-      </div> 
+      <div class="form-group mt-4">
+        <label for="exampleInputPassword1" style="font-weight: 400; font-size: 16px; line-height: 100%; color: #000;">Password</label>
+        <input type="password" class="form-control mt-3" id="exampleInputPassword1" style="width: 532px; height: 54px; border-radius: 10px; border: 1px solid #BD3A3A;">
+      </div>
+
+      <div class="form-group mt-4">
+        <label for="exampleInputConfirmpassword1" style="font-weight: 400; font-size: 16px; line-height: 100%; color: #000;">Confirm Password</label>
+        <input type="confirmpassword" class="form-control mt-3" id="exampleInputConfirmpassword1" aria-describedby="emailHelp" style="width: 532px; height: 54px; border-radius: 10px; border: 1px solid #BD3A3A;">
+      </div>
+        <button type="submit" class="btn btn-primary signup-create mt-5" onclick="signup(event)" style="font-weight: 700; font-size: 16px; line-height: 100%; color: #FFFFFF; width: 532px; height: 54px; border-radius: 10px; border: 1px solid #BD3A3A; background-color: #BD3A3A;">SIGNUP</button>
+      </div>
     </form>
-      <!-- </div> -->
-  
-    <!-- </div> -->
-    </section>
-
-   
+  </section>
 
 
-    <footer class=" mt-5 py-4 pb-2 px-3 footer-font" style="background-color: #212121;">
+    
+
+     <!-- footer start here -->
+    <footer class=" mt-5 py-4 pb-2 px-lg-5 footer-font" style="background-color: #212121;">
        <section class="container pt-lg-5 mt-lg-5 py-md-3 text-light">
           <div class="row">
            <div class="col-sm-12 col-md-6 mb-4 col-lg-2 mb-md-0">
@@ -177,12 +164,10 @@
       
       </section>
     </footer>
-   
-    
 
 
 
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js" integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK" crossorigin="anonymous"></script>
 </body>
 </html>

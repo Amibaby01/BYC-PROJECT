@@ -197,32 +197,110 @@ hr {
 }
 
 
-/* macbook-2 styling start here */
-.most-btn {
-  position: relative;
-}
-.select-sort {
-   display: block;
-   margin-top: 150px !important;
-   text-transform: uppercase;
-   position: absolute;
-   top: 10px !important;
-   right: 15px !important;
-}
+/* macbook-3 styling start here */
+
+/* SORT BY STYLING START HERE */
+.sortby {
+    position:relative;
+    width:136px !important;
+    margin-top: 10px !important;
+    font-family: Roboto, sans-serif;
+  }
+
+  .sortby__select {
+    border:1.5px solid #BD3A3A !important;      
+    border-radius:4px !important;
+    padding:.65rem 2.25rem .65rem .9rem; 
+    font-weight:500 !important;                  /* bold "Most Sold" */
+    font-size:14px !important;
+    line-height:1.25rem;
+    color: #BD3A3A !important;
+    box-shadow: none !important;
+    background-clip:padding-box; 
+    width:136px !important; 
+    height: 36px !important;     
+    padding-left: 10px !important;
+  }
+
+  .sortby__select:focus {
+    /* border-color:#e9eaed;             subtle focus, no glow */
+    box-shadow:none;
+    outline: none !important;
+  }
+
+  .sortby__label {
+    position:absolute;
+    top:-.55rem;                      /* sits on the border */
+    left:.65rem;
+    background:#fff;                  /* creates the little “tab” effect */
+    padding:0 .35rem;
+    font-size:.65rem;                 /* ~12px */
+    text-transform:uppercase;
+    letter-spacing:.18rem;            /* spaced letters like screenshot */
+    color:#BD3A3A;                    /* muted gray */
+    font-weight:600;
+    pointer-events:none;
+  }
+/* SORTED BY STYLING END HERE */
+.btn-toggle {
+    width: 68px;
+    height: 36px;
+    border-radius: 4px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    color: #FFFFFF;
+  }
+
+  
+  .btn-toggle.inactive {
+    background: #eeebf7; 
+    color: #000;         
+  }
+
+  /* Active */
+  .btn-toggle.active {
+    background: #fff;
+    /* border: 0px solid #e9ecf2; */
+    box-shadow: 0 0 0 4px rgba(200, 201, 205, 0.18); 
+    /* color: #d46a6a !important; muted red */
+    width: 60px !important;
+    height: 36px !important;
+    border: none !important;
+  }
+
+  .btn-toggle i {
+    font-size: 18px;
+    
+  }
+
+  .btn-toggle a {
+    width: 30px !important;
+    height: 30px !important;
+    color: #CE6B6B;
+  }
 
 
-/* .macbook-3 {
+
+.macbook-3 {
 box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
  border-radius: 10px;
- width: 100%;
-} */
+ /* width: 100%; */
+ margin: 20px !important;
+}
 
 .product-card1, .product-card2, .product-card3, .product-card4, .product-card5 {
     width: 259px;
     height: 520px;
     /* border-end-end-radius: 11px 11px; */
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
+    margin-top: 20px !important;
+    padding: 5px !important;
+}
+.product-card1 {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
-    margin-top: 70px !important;
 }
 
 .macbook-3 .card-text {
@@ -278,6 +356,22 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 
     .macbook-3 .product-card1 {
         height: 550px !important;
+    }
+
+    .btn-primary {
+        width: 100% !important;
+        margin-top: 10px !important;
+    }
+
+    .product-card2, .product-card3, .product-card4, .product-card5 {
+        /* padding: 0% !important; */
+        height: 400px !important;
+        gap: 20px !important;
+    }
+
+    .macbook-3 {
+        width: 90% !important;
+        /* margin: 10px !important; */
     }
 }
 

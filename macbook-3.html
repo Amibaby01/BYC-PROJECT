@@ -11,7 +11,7 @@
 </head>
 <body>
    
-    <nav class="navbar navbar-expand-lg bg-white px-lg-4 py-lg-3">
+    <nav class="navbar navbar-expand-lg bg-white ms-lg-5 py-lg-3">
         <div class="container-fluid">
               <!-- LEFT NAV BAR-->
                 <div class="d-none d-lg-flex">
@@ -61,7 +61,7 @@
         </div>
     </nav>
 
-<!-- SECOND NAV  -->
+   <!-- SECOND NAV  -->
     <div class="col-sm-12 col-md-12 col-lg-10 d-none d-lg-flex mx-4 nav-mac">
         <nav class="" style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <ol class="breadcrumb">
@@ -77,11 +77,12 @@
             <div class="d-flex justify-content-between border-bottom align-items-center mt-lg-4 mb-lg-3 pt-4 pt-lg-5 pb-2 pb-lg-1 ">
                 <h4 class="boxers fw-bold">Boxers</h4>
 
-            <label for="sort-label" class="select-sort uppercase text" style="font-weight: 500; font-size: 10px; line-height: 16px; letter-spacing: 1.5px; color: #BD3A3A;">
+            <!-- <label for="sort-label" class="select-sort uppercase text" style="font-weight: 500; font-size: 10px; line-height: 16px; letter-spacing: 1.5px; color: #BD3A3A;">
                 SORT BY
-            </label>
+            </label> -->
 
-            <div class="dropdown">
+            <!-- <div class="dropdown">
+
         <button class="btn btn-secondary dropdown-toggle most-btn" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="width: 136px; height: 36px; border: 1px solid #BD3A3A; background-color: #FFFFFF; font-weight: 500; font-size: 14px; color: #BD3A3A; line-height: 143%; letter-spacing: 1.8%;">
             Most Sold
        </button>
@@ -90,26 +91,46 @@
              <li><a class="dropdown-item" href="#">Men Boxers</a></li>
              <li><a class="dropdown-item" href="#">Camisole</a></li>
          </ul>
+        </div> -->
+             
+        <div class="sortby">
+                <span class="sortby__label">SORT BY</span>
+            <select class="form-select sortby__select">
+                <option selected>Most Sold</option>
+                <option>Camsole</option>
+                <option>Men Boxers</option>
+                <option>Men Singles</option>
+            </select>
         </div>
-            </div>
+
+        </div>
 
 
             <div class="d-flex justify-content-between border-bottom align-items-center mt-lg-4">
                 <h4 class="6" style="font-weight: 400; font-size: 12px; color: #706D6D;">6 Product Found</h4>
                 
-                <a href=""><i class="fa-solid fa-list-ul"></i> <!-- List view -->
-                  
-                </a>
-                <a href=""><i class="fa-solid fa-border-all"></i> <!-- Grid view -->
-                </a>
+            <div class="btn-group" role="group" aria-label="View toggle">
+         <!-- List view -->
+         <button type="button" class="btn btn-toggle inactive">
+            <i class="fa-solid fa-list"></i>
+           </button>
 
+           <!-- Grid view -->
+          <button type="button" class="btn btn-toggle active">
+           <a href=""><i class="fa-solid fa-border-all" style="width: 30px; height: 30px;"></i></a>
+          </button>
+          <!-- <i class="fa-solid fa-table-cells"></i> -->
 
+          </div>
+
+                <!-- <a href=""><i class="fa-solid fa-list-ul"></i></a>
+                <a href=""><i class="fa-solid fa-border-all"></i></a> -->
             </div>
 
 
             <hr style="border: 2px solid #f1eeeee4; background-color: #1E1D1D; box-shadow: #e7e6e63d 0px 3px 8px;">
             <div class="row row-cols-lg-5">
-                <div class="col-sm-12  product-card1">
+                <div class="col-sm-12 boxer  product-card1">
                     <div class="card-macbook-3 mb-3 mb-lg-0 w-100" > <!--style=" width: 30rem;"-->
                         <img src="./images/blue-boxer.png" class="img-fluid rounded-top" alt="..." style="width: 100%;">
                         <div class="card-body ps-lg-2 my-lg-4 ps-2 my-2">

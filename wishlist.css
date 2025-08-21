@@ -208,16 +208,14 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 } */
  
 
-.wishlist .product-card1, .wishlist .product-card2, .wishlist .product-card3,  .wishlist .product-card4, .wishlist .product-card5{
-    height: 590px;
-    width: 100% !important;
-}
 .product-card1, .product-card2, .product-card3, .product-card4, .product-card5 {
     width: 259px;
     height: 520px;
     /* border-end-end-radius: 11px 11px; */
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px; */
     margin-top: 70px !important;
+    /* margin: -0px !important; */
+    padding: 5px !important;
 }
 
 .wishlist .card-text {
@@ -281,13 +279,18 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
 
     
 
-    .d-grip {
-       
+    .breadcrumb {
+       margin: 10px !important;
     }
     .wishlist .card-body .product-card1{
         padding-left: 0;
     }
-    .wishlist .product-card1 button{
-        /* margin-right: 10px !important; */
+    .btn-primary {
+       width: 100% !important;
+    }
+
+    .wishlist .product-card1.wishlist .product-card2, .wishlist .product-card3,  .wishlist .product-card4, .wishlist .product-card5{
+    height: 500px;
+    width: 100% !important;
     }
 }

@@ -79,7 +79,17 @@
             <div class="d-flex justify-content-between border-bottom align-items-center mt-lg-4 mb-lg-3 pt-4 pt-lg-5 pb-2 pb-lg-1 ">
                 <h4 class="camsole fw-bold">Camsole</h4>
 
-            <label for="sort-label" class="select-sort uppercase text" style="font-weight: 500; font-size: 10px; line-height: 16px; letter-spacing: 1.5px; color: #787885;">
+                <div class="sortby">
+                <span class="sortby__label">SORT BY</span>
+            <select class="form-select sortby__select">
+                <option selected>Most Sold</option>
+                <option>Camsole</option>
+                <option>Men Boxers</option>
+                <option>Men Singles</option>
+            </select>
+        </div>
+
+            <!-- <label for="sort-label" class="select-sort uppercase text" style="font-weight: 500; font-size: 10px; line-height: 16px; letter-spacing: 1.5px; color: #787885;">
                 SORT BY
             </label>
 
@@ -92,17 +102,28 @@
              <li><a class="dropdown-item" href="#">Men Boxers</a></li>
              <li><a class="dropdown-item" href="#">Camisole</a></li>
          </ul>
+        </div> -->
+            
         </div>
-            </div>
 
 
             <div class="d-flex justify-content-between border-bottom align-items-center mt-lg-4">
                 <h4 class="6" style="font-weight: 400; font-size: 12px; color: #706D6D;">6 Product Found</h4>
                 
-                <a href=""><i class="fa-solid fa-list-ul"></i> <!-- List view -->
-                </a>
-                <a href=""><i class="fa-solid fa-border-all"></i> <!-- Grid view -->
-                </a>
+                <div class="btn-group" role="group" aria-label="View toggle">
+         <!-- List view -->
+         <button type="button" class="btn btn-toggle inactive">
+            <i class="fa-solid fa-list"></i>
+           </button>
+
+           <!-- Grid view -->
+          <button type="button" class="btn btn-toggle active">
+           <a href=""><i class="fa-solid fa-border-all" style="width: 30px; height: 30px;"></i></a>
+          </button>
+          <!-- <i class="fa-solid fa-table-cells"></i> -->
+
+          </div>
+                
             </div>
 
 
