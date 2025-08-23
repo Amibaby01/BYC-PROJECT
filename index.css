@@ -42,9 +42,9 @@
     height: 40px;
 }
 
-#mobileMenu {
+/* #mobileMenu {
     display: none !important;
-}
+} */
 
 .all-btn {
     font-family: "Jost", sans-serif;
@@ -349,8 +349,8 @@ css
 /* SECTION 5 STARTS HERE */
 .sec5 .card-body {
     font-family: "Jost", sans-serif;
-    width: 440px;
-    height: 450px;
+    width: 410px;
+    height: 539px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
     
 }
@@ -358,6 +358,7 @@ css
     background-color: #E0E0E0;
     width: 22rem;
     font-family: "Jost", sans-serif;
+    /* padding-right: 40px !important; */
 }
 .card-sec5 span, .card-sec5 .fa-regular {
     font-weight: 400;
@@ -373,7 +374,7 @@ css
 }
 .sec5 h3 {
     font-weight: 700;
-    font-size: 26px;
+    font-size: 26px !important;
     line-height: 120%;
     color: #212121;
 }
@@ -389,12 +390,14 @@ css
 
 @media screen and (max-width: 600px) {
     .navbar {
-        padding: 5px !important;
+        padding: 10px !important;
        /* max-width: 100% !important; */
     }
     body {
         max-width:  100% !important;
     }
+
+    
     .sec1 {
         margin-top: 50px;
     }
@@ -427,11 +430,12 @@ css
         word-spacing: 0px !important;
     }
 
-    .product-cards {
+    .card-img-top {
         width: 100% !important;
     }
+
     .product-cards h5, p {
-      padding-left: 30px !important;
+      padding-left: 10px !important;
     }
    /* sec 2 ends here */
 
@@ -492,7 +496,7 @@ css
 
     /* section 5 media query  */
     .sec5 .card-body {
-        height: 450px !important;
+        height: 470px !important;
     }
      .sec5 .wf, .sec5 h3, .sec5 p {
         padding: 0px 20px !important;
@@ -506,6 +510,10 @@ css
     .card-sec5 .d-flex {
         margin-top: 20px;
         width: 100% !important;
+   }
+
+   .sec5 h3 {
+    font-size: 22px !important;
    }
    .wade {
     font-size: 15px !important;
@@ -534,7 +542,13 @@ css
         width: 15% !important;
     }
 
+
+
     /* media quary for footer */
+    .footer-font {
+        padding-left: 5% !important;
+    }
+
     /* .mt-5 footer {
         padding-right: 350px !important;
     } */
